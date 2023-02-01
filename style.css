@@ -3,6 +3,9 @@ body {
     margin: 0;
 }
 
-.navbar {
-    background-color: aqua;
+.contentWrapper {
+    background-color: #071555;
+    height: 60vh;
 }
+
+.navbar {}
