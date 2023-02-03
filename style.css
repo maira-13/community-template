@@ -3,9 +3,215 @@ body {
     margin: 0;
 }
 
+
+/* contentWrapper starts here */
+
 .contentWrapper {
     background-color: #071555;
-    height: 60vh;
 }
 
-.navbar {}
+.contentWrapper .content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* navbar starts */
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.navbar input {
+    max-width: 251px;
+    height: 36px;
+}
+
+
+/* navbar ends */
+
+.contentWrapper .Passion {
+    padding: 100px 0;
+}
+
+.contentWrapper .Passion h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0.3px;
+    color: #FCFCFC;
+    margin-bottom: 30px;
+}
+
+.contentWrapper .Passion img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.contentWrapper .Passion p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    color: #FCFCFC;
+    max-width: 557px;
+}
+
+.contentWrapper .Passion button {
+    background: linear-gradient(86.96deg, #5C80FF 4.36%, #1A52E4 93.5%);
+    border-radius: 20px;
+    padding: 13px 55px;
+    border: unset;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+/* contentWrapper ends here */
+
+@media(max-width:1320px) {
+    .contentWrapper .Passion h1 {
+        font-size: 50px;
+        line-height: unset;
+    }
+}
+
+@media(max-width:992px) {
+    .contentWrapper .Passion {
+        padding: 50px 0;
+    }
+    .contentWrapper .Passion img {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .contentWrapper .Passion h1 {
+        margin-bottom: 0;
+    }
+    .contentWrapper .Passion button {
+        margin-top: 0;
+    }
+}
+
+
+/* serviceSec starts here */
+
+.serviceSec {
+    padding: 100px 0;
+    background-color: #fafafa;
+}
+
+.serviceSec .service {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.serviceSec h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    /* or 108% */
+    letter-spacing: 0.5px;
+    color: #0C0B0B;
+    max-width: 418px;
+    margin-bottom: 30px;
+}
+
+.serviceSec p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+    color: #888484;
+    max-width: 415px;
+}
+
+.serviceSec button {
+    background: linear-gradient(86.96deg, #5C80FF 4.36%, #1A52E4 93.5%);
+    border-radius: 20px;
+    padding: 13px 45px;
+    border: unset;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.serviceSec .service-card {
+    background: #FFFFFF;
+    padding: 30px 26px;
+    height: 308px;
+    margin-bottom: 24px;
+}
+
+.serviceSec .service-card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+    color: #000000;
+    margin-top: 23px;
+}
+
+.serviceSec .service-card p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.serviceSec .card1 {
+    border-top: 3px solid #D1B4FB;
+}
+
+.serviceSec .card2 {
+    border-top: 3px solid #59bfe0;
+}
+
+.serviceSec .card3 {
+    border-top: 3px solid #1a52e4;
+}
+
+.serviceSec .card4 {
+    border-top: 3px solid #fa8586;
+}
